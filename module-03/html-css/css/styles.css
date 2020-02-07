@@ -1,6 +1,31 @@
 .main-menu {
     font-size: 14px;
-    text-transform: uppercase;   
+    text-transform: uppercase; 
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+
+}
+.nav {
+    width: 1000;
+    margin: 0 auto;
+}
+
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.main-menu li {
+    float: left;
+}
+.main-menu li a {
+    display: block;
+    height: 100;
+    padding: 0 100px;
+    text-decoration: none;
+    line-height: 50px;
 }
 .main-menu-link:hover {
     color: rgb(3,169,244);
@@ -16,6 +41,25 @@ p.pod-foto-text{
 }
 p.pod-foto-text2{
     font-size: 14px;
-    line-height: 24px;
+    line-height: 24px; 
+}
+.h2 {
+    line-height: 36px;
+}
+.visually-hidden:not(:focus):not(:active),
+imput[type="checkbox"].visually-hidden,
+imput[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
