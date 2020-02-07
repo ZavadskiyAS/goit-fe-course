@@ -1,51 +1,137 @@
-.main-menu {
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Playfair Display', 'Arial', serif;
+    color: #626262;
     font-size: 14px;
-    text-transform: uppercase; 
-    list-style: none;
-    display: inline-block;
-    margin: auto;
-
+    line-height: 24px;
 }
-.nav {
-    width: 1000;
+.container {
+    width: 900px;
     margin: 0 auto;
-}
-
-
-.main-menu {
-    margin: 0;
-    padding: 0;
-    height: 50px;
-}
-.main-menu li {
-    float: left;
-}
-.main-menu li a {
-    display: block;
-    height: 100;
-    padding: 0 100px;
-    text-decoration: none;
-    line-height: 50px;
 }
 .main-menu-link:hover {
     color: rgb(3,169,244);
+} 
+
+.main-nav {
+    padding: 75px;
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 105px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main-menu-link {
+    display: block;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.main-menu a {
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.main-menu a:hover,
+.main-menu a:focus {
+    color: #03a9f4;
+}
+.lifectyle {
+    font-size: 0;
+}
+
+.article {
+    display: inline-block;
+    margin-bottom: 134px;
+    margin-right: 60px;
+    width: 420px;
+}
+.article:nth-child(2n) {
+    margin-right: 0;
 }
 .pod-foto {
+    margin-bottom: 41px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    line-height: 17px;
+}
+
+
+/* .lifestyle {
+    display: inline-block;
+    margin-bottom: 134px;
+    margin-right: 60px;
+    width: 420px;
+    font-size: 0; 
+}*/
+.lifestyle:nth-child(2n) {
+    margin-right: 0;}
+
+.pod-foto {
+    margin-bottom: 41px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
     text-transform: uppercase;
     color: rgb(180,173,158);
 }
-p.pod-foto-text{
+.pod-foto-text{
+    display: inline-block;
     font-size: 14px;
-    line-height: 24px;
-    
+    width: 420px;
 }
-p.pod-foto-text2{
-    font-size: 14px;
-    line-height: 24px; 
+p {
+    margin: 0;
 }
+
 .h2 {
+    margin: 0;
+    margin-bottom: 48px;
+    font-size: 30px;
     line-height: 36px;
 }
+.last {
+    margin-bottom: 56px;
+}
+.load-more {
+    display: block;
+    margin: 0 auto;
+    border-width: 2px;
+    border-color: #626262;
+    width: 164px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
 .visually-hidden:not(:focus):not(:active),
 imput[type="checkbox"].visually-hidden,
 imput[type="radio"].visually-hidden {
