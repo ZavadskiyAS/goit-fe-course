@@ -1,0 +1,21 @@
+.main-menu {
+    font-size: 14px;
+    text-transform: uppercase;   
+}
+.main-menu-link:hover {
+    color: rgb(3,169,244);
+}
+.pod-foto {
+    text-transform: uppercase;
+    color: rgb(180,173,158);
+}
+p.pod-foto-text{
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+p.pod-foto-text2{
+    font-size: 14px;
+    line-height: 24px;
+    
+}
