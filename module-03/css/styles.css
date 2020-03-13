@@ -113,6 +113,7 @@ h2 {
     cursor: pointer;
     
 }
+
 .visually-hidden:not(:focus):not(:active),
 imput[type="checkbox"].visually-hidden,
 imput[type="radio"].visually-hidden {
