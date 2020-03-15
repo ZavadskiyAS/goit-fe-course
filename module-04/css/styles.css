@@ -34,7 +34,6 @@ img {
 }
 
 .page-nav {
-    /*margin-bottom: 70px;*/
     padding: 40px 0;
 }
 
@@ -78,7 +77,6 @@ img {
 
 .site-nav {
     float: right;
-    /*width: 473px;*/
     color: #0f0101;
     margin: 0;
     padding: 0;
@@ -205,7 +203,6 @@ h2::after {
 .latest-list-name::after {
     display: block;
     margin-top: 12px;
-    /*margin-bottom: 15px;*/
     width: 135px;
     height: 3px;
     background-color: #1abc9c;
