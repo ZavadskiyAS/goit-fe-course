@@ -80,7 +80,6 @@ body {
 }
 
 .article-about {
-    display: inline-block;
     font-size: 14px;
     width: 420px;
 }
@@ -96,10 +95,10 @@ h2 {
     line-height: 36px;
 }
 
-.last {
-    margin-bottom: 56px;
+.load-more-btn:hover,
+.load-more-btn:focus {
+    color: #03a9f4;
 }
-
 .load-more-btn {
     display: block;
     margin:  0 auto;
@@ -111,7 +110,8 @@ h2 {
     line-height: 24px;
     background-color: white;
     cursor: pointer;
-    
+}
+   
 }
 
 .visually-hidden:not(:focus):not(:active),
