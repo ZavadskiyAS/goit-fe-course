@@ -38,6 +38,7 @@ img {display: block;
 .site-nav li:last-child {margin-right: 0px;}
 
 .site-nav-item {font-family: 'Open Sans', sans-serif;
+    display: block;
     font-size: 14px;
     font-weight: 600;
     color: #0f0101;
@@ -59,6 +60,11 @@ img {display: block;
 main {margin-top: 0;}
 
 .featured {margin-bottom: 105px;}
+
+.section {
+    padding-top: 0%;
+    bottom: 0px;
+}
 
 .featured-title {margin: 0;
     margin-bottom: 92px;
