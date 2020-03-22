@@ -292,7 +292,7 @@ h2::after {
     background-color: #323232;
 
 }
-.collection-list:hover {
+.collection-list-link:hover {
     background-color: #1abc9c;
     cursor: pointer;
 }
