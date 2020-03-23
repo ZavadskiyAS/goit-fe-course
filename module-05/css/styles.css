@@ -34,7 +34,7 @@ img {
     margin: 0 auto;
 }
 .page-nav {
-    margin-bottom: 70px;
+    padding: 40px;
 }
 
 .logo {
@@ -111,12 +111,12 @@ img {
 .left:hover {
     background-color: #1abc9c
 }
-.right {
+.right2 {
     float: right;
     background-image: url(../img/right.png);
     background-color: rgba(78,198,171,0.2);
 }    
-.right:hover {
+.right2:hover {
     background-color: #1abc9c;
 }
 .slaids {
@@ -307,4 +307,20 @@ h2::after {
 
 .collection-list__item:nth-child(-n + 2) {
     margin-right: 8px;
+}
+.page-footer {
+    background-color: #323232;
+}
+.footer-wrapper {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.footer-info {
+    color: white;
+}
+.link-info {
+    color: #1abc9c;
+    list-style: none;
+    text-decoration: none;
 }
