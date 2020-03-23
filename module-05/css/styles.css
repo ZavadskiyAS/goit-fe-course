@@ -29,7 +29,7 @@ img {
     clear: both;
 }
 
-.conteiner {
+.container {
     width: 1110px;
     margin: 0 auto;
 }
@@ -114,7 +114,10 @@ img {
 .right2 {
     float: right;
     background-image: url(../img/right.png);
-    background-color: rgba(78,198,171,0.2);
+    background-position: center;
+    background-color: rgba(78,198,171,0.5);
+    background-repeat: no-repeat;
+
 }    
 .right2:hover {
     background-color: #1abc9c;
@@ -127,8 +130,7 @@ img {
 .slaid-info {
     position: absolute;
     display: inline-block;
-    width: 730px;
-    height: 144px;
+    width: 735px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -176,7 +178,7 @@ img {
     background-color: rgba(0,0,0, 0.5);
 }
 .main-section {
-    padding: 98px;
+    padding: 98px 0;
     background-color: #e9f0fd;
 }
 .section-title {
@@ -216,6 +218,7 @@ h2::after {
     line-height: 40px;
     color: white;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .price {
     float: right;
