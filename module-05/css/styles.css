@@ -282,10 +282,10 @@ h2::after {
     background-image: url(/module-05/img/icon/mix.png);
 }
 .time {
-    background-image: url(/module-05/img/icon/time.png);
+    background-image: url(../img/icon/time.png);
 }
 .add {
-    background-image: url(/module-05/img/icon/add.png);
+    background-image: url(../img/icon/add.png);
     width: 166px;
     height: 50px;
     margin-top: 8px;
