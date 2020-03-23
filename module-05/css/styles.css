@@ -105,11 +105,19 @@ img {
 }
 .left {
     float: left;
-    background-image: url(/module-05/img/left.png);
+    background-image: url(../img/left.png);
+    background-color: rgba(78,198,171,0.2);
+}
+.left:hover {
+    background-color: #1abc9c
 }
 .right {
     float: right;
-    background-image: url(/module-05/img/right.png);
+    background-image: url(../img/right.png);
+    background-color: rgba(78,198,171,0.2);
+}    
+.right:hover {
+    background-color: #1abc9c;
 }
 .slaids {
     margin: 0px;
@@ -276,10 +284,10 @@ h2::after {
     background-position: center;
 }
 .like {
-    background-image: url(/module-05/img/icon/like.png);
+    background-image: url(../img/icon/like.png);
 }
 .mix {
-    background-image: url(/module-05/img/icon/mix.png);
+    background-image: url(../img/icon/mix.png);
 }
 .time {
     background-image: url(../img/icon/time.png);
