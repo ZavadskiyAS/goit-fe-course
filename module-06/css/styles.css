@@ -5,8 +5,8 @@ html {
 *,
 *::before,
 *::after {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: inherit;
 }
 
@@ -188,7 +188,7 @@ img {
     background-image: url(../img/icon/3.png);
 }
 
-.ceo::before {
+.seo::before {
     background-image: url(../img/icon/4.png);
 }
 
@@ -204,7 +204,7 @@ img {
     width: 960px;
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 90px;
+    margin-bottom: 90px;
 }
 .text-info-team {
     font-size: 15px;
@@ -270,8 +270,17 @@ img {
     align-items: center;
     list-style: none;
 }
-.soc-ikon-list:not(:last-child) {
+.soc-icon-list:not(:last-child) {
     padding-right: 1px;
+}
+
+.icon-item {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #fce38a;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-item:hover {
