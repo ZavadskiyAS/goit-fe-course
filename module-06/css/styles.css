@@ -61,7 +61,7 @@ img {
 }
 
 .nav-list-item:not(:last-child) {
-    padding: 58px;
+    padding-right: 58px;
 }
 .nav-link {
     color: #95e1d3;
