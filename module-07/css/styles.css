@@ -52,7 +52,7 @@ html {
 
 body {
     font-family: "Montserrat", "Arial", sans-serif;
-    color: 000000;
+    color: #000000;
     font-size: 0.875rem;
     line-height: 1.0625rem;
 }
@@ -170,7 +170,7 @@ a {
 .contact-us {
     background-color: #222222;
     background-image: url(../img/map.png);
-    background-position: right bottom 1.125rem;
+    background-position: right center;
     background-repeat: no-repeat;
     padding: 6.875rem 0;
 }
