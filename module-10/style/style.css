@@ -132,19 +132,19 @@ img {
       from(rgba(251, 227, 137, 0.7)),
       to(rgba(243, 138, 129, 0.7))
     ),
-    url(../img/Layer15.png);
+    url(../img/layer15.png);
   background: -o-linear-gradient(
       bottom,
       rgba(251, 227, 137, 0.7) 0%,
       rgba(243, 138, 129, 0.7) 100%
     ),
-    url(../img/Layer15.png);
+    url(../img/layer15.png);
   background: linear-gradient(
       0deg,
       rgba(251, 227, 137, 0.7) 0%,
       rgba(243, 138, 129, 0.7) 100%
     ),
-    url(../img/Layer15.png);
+    url(../img/layer15.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -164,19 +164,19 @@ img {
         from(rgba(251, 227, 137, 0.7)),
         to(rgba(243, 138, 129, 0.7))
       ),
-      url(../img/Layer15@2x.png);
+      url(../img/layer15@2x.png);
     background: -o-linear-gradient(
         bottom,
         rgba(251, 227, 137, 0.7) 0%,
         rgba(243, 138, 129, 0.7) 100%
       ),
-      url(../img/Layer15@2x.png);
+      url(../img/layer15@2x.png);
     background: linear-gradient(
         0deg,
         rgba(251, 227, 137, 0.7) 0%,
         rgba(243, 138, 129, 0.7) 100%
       ),
-      url(../img/Layer15@2x.png);
+      url(../img/layer15@2x.png);
     background-size: 1920px 1000px;
   }
 }
@@ -427,27 +427,27 @@ img {
 }
 
 .prof-list__item_photography::before {
-  background-image: url(../img/ALARM\\(2\).svg);
+  background-image: url(../img/alarm2.svg);
 }
 
 .prof-list__item_web::before {
-  background-image: url(../img/LINE\GRAPH.svg);
+  background-image: url(../img/line-graph.svg);
 }
 
 .prof-list__item_creativity::before {
-  background-image: url(../img/COMPUTER\_\OK.svg);
+  background-image: url(../img/computer-ok.svg);
 }
 
 .prof-list__item_ceo::before {
-  background-image: url(../img/book\2svg);
+  background-image: url(../img/book2.svg);
 }
 
 .prof-list__item_css::before {
-  background-image: url(../img/HOME.svg);
+  background-image: url(../img/home.svg);
 }
 
 .prof-list__item_digital::before {
-  background-image: url(../img/IMAGE.svg);
+  background-image: url(../img/image.svg);
 }
 
 .prof-list__item-photo {
@@ -464,8 +464,6 @@ img {
   line-height: 24px;
   color: #999999;
 }
-
-/* Section Card-lit */
 
 .section-title__descrip {
   width: 960px;
@@ -635,7 +633,6 @@ img {
   text-align: center;
 }
 
-/* Footer */
 .footer-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
